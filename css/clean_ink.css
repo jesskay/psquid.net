@@ -16,6 +16,9 @@ h1, h2 {
 
 a h1, a h2 {
   color: rgb(0, 0, 0);
+}
+
+a {
   text-decoration: none;
 }
 
