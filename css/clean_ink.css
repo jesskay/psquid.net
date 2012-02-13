@@ -11,6 +11,7 @@ h1, h2 {
   font-weight: bolder;
   background: rgb(192, 192, 192);
   color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 h1 {
@@ -18,11 +19,6 @@ h1 {
 }
 h2 {
   padding: 5px;
-}
-
-h1 a, h2 a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
 }
 
 #main {
