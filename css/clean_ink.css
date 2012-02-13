@@ -18,3 +18,9 @@ h1 a {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
+
+#main {
+  width: 900px;
+  padding: 0;
+  margin: 15px auto 20px auto;
+}
