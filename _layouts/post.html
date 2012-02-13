@@ -4,8 +4,16 @@
     <title>{{ page.title }} - Squid's Scribblings</title>
 </head>
 <body>
-    <h1>Squid's Scribblings</h1>
-    <h2>{{ page.title }}</h2>
-    {{ content }}
+    <header>
+        <h1>Squid's Scribblings</h1>
+    </header>
+    <section id="main">
+        <article class="post">
+            <header>
+                <h2>{{ page.title }}</h2>
+            </header>
+            {{ content }}
+        </article>
+    </section>
 </body>
 </html>
