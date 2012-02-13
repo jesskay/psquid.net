@@ -1,1 +1,12 @@
-/* TODO: actually define some styles */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  background: rgb(0, 0, 0);
+}
