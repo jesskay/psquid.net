@@ -8,5 +8,8 @@ h1 {
   margin: 0;
   padding: 10px;
   text-align: center;
+  text-decoration: none;
+  font-weight: bold;
   background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
