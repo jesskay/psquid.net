@@ -1,13 +1,10 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <title>Github pages placeholder</title>
-</head>
-<body>
-    <section>
-        <h1>Github pages placeholder</h1>
-        <p>This is my temporary placeholder page to hold this location over
-        until I get done with setting up a proper page.</p>
-    </section>
-</body>
-</html>
+---
+layout: list
+title: Squid's Scribblings
+---
+
+<ul class="post-list">
+{% for post in site.posts %}
+<li>{{ post.date }} &mdash; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
