@@ -41,5 +41,21 @@ h2 {
 
 .date {
   padding-right: 8px;
+}
+
+.date, .tags {
   color: rgb(128, 128, 128);
+}
+
+.post-meta {
+  background: rgb(240, 240, 240);
+  overflow: auto;
+}
+
+.post-meta .date {
+  float: left;
+}
+
+.post-meta .tags {
+  float: right
 }
