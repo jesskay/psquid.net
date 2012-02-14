@@ -39,7 +39,7 @@ h2 {
   margin: 15px auto 20px auto;
 }
 
-.post-list, .post-list li {
+.links-list, .links-list li {
   list-style-type: none;
   margin-left: 0;
   padding-left: 0; /* fuck you, IE */
