@@ -18,7 +18,7 @@ a h1, a h2 {
   color: rgb(0, 0, 0);
 }
 
-a h1:hover, a h2:hover {
+a:hover h1, a:hover h2 {
   background: rgb(192, 192, 192);
 }
 
