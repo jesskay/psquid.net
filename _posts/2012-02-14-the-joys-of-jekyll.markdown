@@ -26,13 +26,14 @@ engine itself, but still had the features I wanted - namely:
  * Version controllable
  * Ability to serve it from my own server a plus, but not a requirement
 
-After a little searching, and with a strong recommendation from [moggers87][2],
-I settled on [Jekyll][3]. It satisfies the first two requirements _easily_, and
-the third and fourth were satisfied together by my decision to use [Github
-Pages][4] to host it (another nice result of that is that you can [see the
-source of any post exactly as I wrote it][5]). Since the output is just HTML
-and CSS, I _could_ also have hosted it on my server, but I was going to use git
-to track it anyway, so choosing [Pages][4] killed two birds with one stone.
+After a little searching, and based tangentially off [moggers87][2]'s
+recommendation of the very similar [hyde][3], I settled on [Jekyll][4]. It
+satisfies the first two requirements _easily_, and the third and fourth were
+satisfied together by my decision to use [Github Pages][5] to host it (another
+nice result of that is that you can [see the source of any post exactly as I
+wrote it][6]). Since the output is just HTML and CSS, I _could_ also have
+hosted it on my server, but I was going to use git to track it anyway, so
+choosing [Pages][5] killed two birds with one stone.
 
 The much more relaxed visual style was born out of my growing distaste for the
 old yellow/black colour-scheme, and my desire to keep the style as simple as
@@ -49,6 +50,7 @@ PSquid out.
 
 [1]: http://psquid.net/2011/06/22/ink-n-mustard/
 [2]: http://moggers87.co.uk/
-[3]: http://github.com/mojombo/jekyll/
-[4]: http://pages.github.com/
-[5]: https://github.com/psquid/psquid.github.com
+[3]: http://ringce.com/hyde
+[4]: http://github.com/mojombo/jekyll/
+[5]: http://pages.github.com/
+[6]: https://github.com/psquid/psquid.github.com
