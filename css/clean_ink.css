@@ -39,6 +39,10 @@ h2 {
   margin: 15px auto 20px auto;
 }
 
+.post-list {
+  list-style-type: none;
+}
+
 ul .date {
   padding-right: 8px;
 }
