@@ -1,7 +1,14 @@
+/* some HTML5 block display rules to keep older browsers' rendering sane */
+article, header, section { display: block; }
+
+body {
+  overflow-y: scroll;
+  font-family: sans-serif;
+}
+
 body, html {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }
 
 a.feed-link {
