@@ -4,6 +4,24 @@ body, html {
   font-family: sans-serif;
 }
 
+a.feed-link {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  width: 14px;
+  height: 14px;
+  background: url(/images/feed-icon-14x14.png);
+  overflow: hidden;
+}
+
+/* banished off-screen for all except screen readers */
+a.feed-link span {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+}
+
 h1, h2 {
   width: 100%;
   margin: 0;
