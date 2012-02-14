@@ -47,6 +47,8 @@ tried it, I really can't recommend enough that you go and do so right away!
 PSquid out.
 
 
-[1]: http://psquid.net/2011/06/22/ink-n-mustard/ [2]: http://moggers87.co.uk/
-[3]: http://github.com/mojombo/jekyll/ [4]: http://pages.github.com/ [5]:
-https://github.com/psquid/psquid.github.com
+[1]: http://psquid.net/2011/06/22/ink-n-mustard/
+[2]: http://moggers87.co.uk/
+[3]: http://github.com/mojombo/jekyll/
+[4]: http://pages.github.com/
+[5]: https://github.com/psquid/psquid.github.com
