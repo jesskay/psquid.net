@@ -12,7 +12,7 @@ Time to dust off the old blog-o-phone again, I think.
 
 A little while ago, I [moved my blog to a blogging engine of my own design and
 creation][1]. And all was well and good. But after a while, I started to find
-little things I didn't like my original solution to, and gradually the entire
+little things I didn't like in my original solution, and gradually the entire
 codebase devolved into a functioning, but crufty, relic. And I spent _far_ more
 time working on the engine than actually writing any posts, which is toxic for
 a blog, especially since 90% of code changes won't result in any obvious visual
