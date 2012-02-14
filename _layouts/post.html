@@ -8,7 +8,11 @@
                 </section>
             </header>
             {{ content }}
-            <section id="#comments">
+            <section id="comments">
+                <script type="text/javascript">
+                var disqus_title = '{{ page.title }}';
+                var disqus_identifier = '{{ page.id }}';
+                </script>
                 <div id="disqus_thread"></div>
                 <script type="text/javascript">
                 var disqus_shortname = 'psquid';
