@@ -38,3 +38,8 @@ h2 {
   padding: 0;
   margin: 15px auto 20px auto;
 }
+
+.date {
+  padding-right: 8px;
+  color: rgb(128, 128, 128);
+}
