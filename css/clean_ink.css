@@ -27,10 +27,10 @@ a {
 }
 
 h1 {
-  padding: 15px;
+  padding: 15px 0px 10px;
 }
 h2 {
-  padding: 5px;
+  padding: 5px 0px 5px;
 }
 
 #main {
@@ -50,15 +50,17 @@ ul .date {
 .post-meta {
   background: rgb(240, 240, 240);
   width: 100%;
-  padding: 2px;
+  padding: 3px 0px 3px;
   margin: 0;
   overflow: auto;
 }
 
 .post-meta .date {
   float: left;
+  margin-left: 5px;
 }
 
 .post-meta .tags {
   float: right
+  margin-right: 5px;
 }
