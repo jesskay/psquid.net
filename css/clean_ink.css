@@ -77,6 +77,7 @@ ul .date {
 
 .comments-link {
   color: rgb(192, 192, 192);
+  padding-left: 12px;
 }
 
 .date, .tags {
