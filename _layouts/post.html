@@ -1,15 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <title>{{ page.title }} - Squid's Scribblings</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/clean_ink.css" />
-    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="Atom feed" />
-</head>
-<body>
-    <header>
-        <a href="/"><h1>Squid's Scribblings</h1></a>
-    </header>
-    <section id="main">
+{% include header.html %}
         <article class="post">
             <header>
                 <h2>{{ page.title }}</h2>
@@ -20,6 +9,4 @@
             </header>
             {{ content }}
         </article>
-    </section>
-</body>
-</html>
+{% include footer.html %}
