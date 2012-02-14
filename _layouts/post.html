@@ -13,8 +13,8 @@
             <header>
                 <h2>{{ page.title }}</h2>
 		<section class="post-meta">
-                    <span class="date">Posted {{ page.date | }}</span>
-                    <span class="tags">Tagged {{ page.tags }}</span>
+                    <span class="date">Posted {{ page.date | date_to_long_string }}</span>
+                    <span class="tags">Tagged {{ page.tags | array_to_sentence_string }}</span>
                 </section>
             </header>
             {{ content }}
