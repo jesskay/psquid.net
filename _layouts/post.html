@@ -9,4 +9,11 @@
             </header>
             {{ content }}
         </article>
+	<nav>
+	    {% if page.previous.url %}
+	    <a href="{{ page.previous.url }}" title="Older post: {{ page.previous.title }}">&larr; {{ page.previous.title }}</a>
+	    {% endif %}
+	    {% if page.next.url %}
+	    <a href="{{ page.next.url }}" title="Newer post: {{ page.next.title }}">{{ page.next.title }} &rarr;</a>
+	    {% endif %}
 {% include footer.html %}
