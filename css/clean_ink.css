@@ -100,6 +100,8 @@ ul .date {
 
 nav {
   overflow: auto;
+  margin-top: 24px;
+  font-size: 0.7em;
 }
 
 nav .newer {
