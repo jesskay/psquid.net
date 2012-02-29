@@ -97,3 +97,15 @@ ul .date {
   float: right;
   margin-right: 8px;
 }
+
+nav {
+  overflow: auto;
+}
+
+nav .newer {
+  float: right;
+}
+
+nav .older {
+  float: left;
+}
