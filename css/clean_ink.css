@@ -1,9 +1,6 @@
 /* some HTML5 block display rules to keep older browsers' rendering sane */
 article, header, section { display: block; }
 
-/* make box-sizing not depend on padding */
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
 body {
   overflow-y: scroll;
   font-family: sans-serif;
@@ -16,8 +13,8 @@ body, html {
 
 a.feed-link {
   position: absolute;
-  right: 0.3em;
-  top: 0.3em;
+  right: 4px;
+  top: 4px;
   width: 14px;
   height: 14px;
   background: url(/images/feed-icon-14x14.png);
@@ -27,7 +24,7 @@ a.feed-link {
 /* banished off-screen for all except screen readers */
 a.feed-link span {
   position: absolute;
-  left: -10000em;
+  left: -10000px;
   width: 1px;
   height: 1px;
 }
@@ -56,17 +53,17 @@ a {
 }
 
 h1 {
-  padding: 0.5em;
+  padding: 15px 0px 10px;
 }
 h2 {
-  padding: 0.3em;
-  margin-top: 1em;
+  padding: 5px 0px 5px;
+  margin-top: 22px;
 }
 
 #main {
-  width: 90%;
+  width: 900px;
   padding: 0;
-  margin: 1em auto 2em auto;
+  margin: 15px auto 20px auto;
 }
 
 .links-list, .links-list li {
@@ -76,7 +73,7 @@ h2 {
 }
 
 ul .date {
-  padding-right: 0.6em;
+  padding-right: 8px;
 }
 
 .date, .tags {
