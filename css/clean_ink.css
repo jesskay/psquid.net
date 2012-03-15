@@ -7,6 +7,7 @@ article, header, section { display: block; }
 body {
   overflow-y: scroll;
   font-family: sans-serif;
+  font-size: 1em;
 }
 
 body, html {
@@ -86,7 +87,7 @@ ul .date {
 .post-meta {
   background: rgb(240, 240, 240);
   width: 100%;
-  padding: 4px 0px 4px;
+  padding: 0.3em;
   margin: 0;
   overflow: auto;
   font-size: 0.7em;
@@ -94,22 +95,22 @@ ul .date {
 
 .post-meta .date {
   float: left;
-  margin-left: 8px;
+  margin-left: 0.6em;
 }
 
 .post-meta .tags {
   float: right;
-  margin-right: 8px;
+  margin-right: 0.6em;
 }
 
 nav {
   overflow: auto;
-  margin-top: 24px;
+  margin-top: 1.8em;
   font-size: 0.7em;
 }
 
 nav .newer {
-  padding-left: 24px;
+  padding-left: 1.8em;
   float: right;
 }
 
