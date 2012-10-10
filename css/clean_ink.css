@@ -135,6 +135,6 @@ nav .older {
   font-family: monospace, monospace;
   opacity: 0.35;
 }
-#main a:hover:before, #main a:hover:after {
+#main a:hover:before, #main a:active:before, #main a:hover:after, #main a:active:after {
   opacity: 1;
 }
