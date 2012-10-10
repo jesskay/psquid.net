@@ -124,3 +124,17 @@ nav .newer {
 nav .older {
   float: left;
 }
+
+#main a:link:before {
+  content: "[";
+}
+#main a:link:after {
+  content: "]";
+}
+#main a:link:before, #main a:link:after {
+  font-family: monospace, monospace;
+  opacity: 0.35;
+}
+#main a:hover:before, #main a:hover:after {
+  opacity: 1;
+}
