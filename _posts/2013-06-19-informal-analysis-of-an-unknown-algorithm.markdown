@@ -81,4 +81,4 @@ hear if anyone found this post interesting, and especially if anyone would like
 to see me step through similar processes when I run into them.)
 
 
-[1] https://www.udacity.com/course/cs215
+[1]: https://www.udacity.com/course/cs215
