@@ -8,12 +8,10 @@ tags:
 ---
 
 So, as of earlier today I've been working through the [Algorithms course on
-Udacity][], and I wanted to work through the lesson 1 naive algorithm analysis
+Udacity][1], and I wanted to work through the lesson 1 naive algorithm analysis
 example in writing, so I could get a good grasp on the actual process of
 analyzing it. Then I figured I might as well write it up a little neater so I
 could actually publish it somewhere for posterity, and this blog post happened.
-
-[]: https://www.udacity.com/course/cs215
 
 
 I'd also like to preface this by saying yes, I'm aware people could potentially
@@ -81,3 +79,6 @@ multiply `a` by `b`.
 (Thanks for reading, if you got this far without boredom. I'd be interested to
 hear if anyone found this post interesting, and especially if anyone would like
 to see me step through similar processes when I run into them.)
+
+
+[1] https://www.udacity.com/course/cs215
