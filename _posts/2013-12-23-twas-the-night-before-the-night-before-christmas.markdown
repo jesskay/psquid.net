@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'twas the night before the night before Christmas
+title: Twas the night before the night before Christmas
 tags:
 - silliness
 - gpg
