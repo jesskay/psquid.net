@@ -58,7 +58,7 @@ h1 {
 }
 
 h2 {
-  border-bottom: 1vh dotted rgb(36, 48, 48);
+  border-bottom: 0.5vh dotted rgb(36, 48, 48);
 }
 
 a h1, a h2 {
