@@ -74,11 +74,11 @@ a:hover h1, a:hover h2 {
 
 a {
   text-decoration: none;
-  color: rgb(192, 210, 210);
+  color: rgb(192, 128, 220);
 }
 
 a:visited {
-  color: rgb(128, 192, 220);
+  color: rgb(144, 80, 160);
 }
 
 h1 {
