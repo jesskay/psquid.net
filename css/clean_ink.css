@@ -12,6 +12,9 @@
 /* some HTML5 block display rules to keep older browsers' rendering sane */
 article, header, section { display: block; }
 
+/* sane sizing across browsers */
+* { box-sizing: border-box; }
+
 body {
   overflow-y: scroll;
   font-family: Roboto, Helvetica, sans-serif;
