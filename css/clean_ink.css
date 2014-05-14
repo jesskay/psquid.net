@@ -156,3 +156,17 @@ nav .older {
 #main a:hover:before, #main a:active:before, #main a:focus:before, #main a:hover:after, #main a:active:after, #main a:focus:after {
   opacity: 1;
 }
+
+pre, :not(pre) > code {
+    background: rgb(16,24,24);
+    border: 1px solid rgb(32, 48, 48);
+    border-radius: 0.3em;
+}
+
+pre {
+    padding: 0.6em 0.6em 0.4em;
+}
+
+:not(pre) > code {
+    padding: 0.2em 0.2em 0;
+}
